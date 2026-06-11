@@ -1,0 +1,8 @@
+streamlit
+faiss-cpu
+numpy
+sentence-transformers
+google-generativeai
+pypdf
+torch==2.5.1
+torchvision
