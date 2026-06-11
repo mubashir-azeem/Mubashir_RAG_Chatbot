@@ -6,6 +6,7 @@ import pickle
 import numpy as np
 from sentence_transformers import SentenceTransformer
 import google.generativeai as genai
+
 st.write("API Loaded:", bool(st.secrets.get("GEMINI_API_KEY")))
 # =====================================
 # PAGE CONFIG
@@ -26,7 +27,7 @@ genai.configure(
 )
 
 llm = genai.GenerativeModel(
-    "gemini-2.5-flash"
+    "gemini-pro-latest"
 )
 
 # =====================================
