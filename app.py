@@ -24,9 +24,8 @@ genai.configure(
 )
 
 llm = genai.GenerativeModel(
-    "gemini-pro-latest"
+    "gemini-2.5-flash"
 )
-
 # =====================================
 # LOAD EMBEDDING MODEL
 # =====================================
