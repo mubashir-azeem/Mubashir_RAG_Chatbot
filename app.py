@@ -35,8 +35,7 @@ llm = genai.GenerativeModel(
 def load_embedding_model():
 
     return SentenceTransformer(
-        "all-MiniLM-L6-v2",
-        local_files_only=True
+        "all-MiniLM-L6-v2"
     )
 
 embedding_model = load_embedding_model()
