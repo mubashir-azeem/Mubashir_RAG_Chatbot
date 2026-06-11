@@ -2,6 +2,10 @@
 
 RAG-Based Intelligent Document Assistant
 
+Link: https://mubashirragchatbot.streamlit.app/
+
+
+
 ## Developer
 Mubashir Azeem Abbasi
 
