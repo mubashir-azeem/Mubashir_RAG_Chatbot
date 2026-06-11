@@ -1,3 +1,5 @@
+st.write("API Loaded:", bool(st.secrets.get("GEMINI_API_KEY")))
+
 import streamlit as st
 import faiss
 import pickle
